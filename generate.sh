@@ -97,7 +97,7 @@ HIVE_SERVER2_HOST=$HOST
 ATS_HOST=$HOST
 RANGER_HOST=$HOST
 
-HIVE_METASTORE_HOST=hivemr3-metastore-0.metastore.${NAMESPACE}.svc.cluster.local
+HIVE_METASTORE_HOST=metastore.${NAMESPACE}.svc.cluster.local
 
 # Keystore file for MR3 components (HiveServer2, Timeline Server, Ranger, Metastore)
 # The administrator can extract a certificate and distribute it to users.
